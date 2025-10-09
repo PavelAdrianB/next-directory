@@ -1,4 +1,5 @@
 'use client';
+import { X } from 'lucide-react';
 import Link from 'next/link';
 import React from 'react';
 
@@ -12,7 +13,7 @@ function SearchFormReset() {
     <>
       <button type="reset" onClick={reset}>
         <Link href="/" className="search-btn text-white">
-          x
+          <X className="size-5" />
         </Link>
       </button>
     </>
